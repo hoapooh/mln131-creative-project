@@ -15,7 +15,7 @@ export function ScrollProgress({ className, ref, ...props }: ScrollProgressProps
 		<motion.div
 			ref={ref}
 			className={cn(
-				"fixed inset-x-0 top-0 z-50 h-0.5 origin-left bg-gradient-to-r from-red-500 via-red-400 to-yellow-500",
+				"fixed inset-x-0 top-0 z-50 h-0.5 origin-left bg-gradient-to-r from-emerald-500 via-teal-400 to-yellow-500",
 				className
 			)}
 			style={{

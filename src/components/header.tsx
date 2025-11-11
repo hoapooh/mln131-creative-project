@@ -2,24 +2,28 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { cn } from "@/lib/utils";
+import { Bot, Home, Image, Network } from "lucide-react";
 
 const navigation = [
 	{
 		href: "/",
 		label: "Trang chủ",
+		icon: Home,
 	},
 	{
 		href: "/mind-map",
 		label: "Mind Map",
+		icon: Network,
 	},
 	{
-		href: "/quiz",
-		label: "Q&A - Quiz",
+		href: "/gallery",
+		label: "Thư viện ảnh",
+		icon: Image,
 	},
 	{
 		href: "/ai-usage",
 		label: "AI Usage",
+		icon: Bot,
 	},
 ];
 
@@ -30,8 +34,11 @@ export function Header() {
 		<nav className="fixed top-0 left-0 right-0 z-50 bg-background backdrop-blur-md border-b border-border">
 			<div className="container mx-auto px-4">
 				<div className="flex items-center justify-between h-16">
-					<Link href="/" className="font-serif text-xl font-bold">
-						KTMT
+					<Link
+						href="/"
+						className="text-xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent hover:from-emerald-700 hover:to-teal-700 transition-all"
+					>
+						Gia đình 4.0
 					</Link>
 
 					<div className="flex items-center gap-6">
@@ -41,12 +48,12 @@ export function Header() {
 								<Link
 									key={item.href}
 									href={item.href}
-									className={cn(
-										"text-sm font-medium transition-colors hover:text-primary",
-										isActive ? "text-primary" : "text-muted-foreground"
-									)}
+									className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all duration-200 ${
+										isActive ? "bg-emerald-50 text-emerald-700" : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
+									}`}
 								>
-									{item.label}
+									<item.icon className="size-4" />
+									<span className="inline">{item.label}</span>
 								</Link>
 							);
 						})}
