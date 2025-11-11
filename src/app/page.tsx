@@ -34,6 +34,7 @@ export default function Home() {
 			description:
 				"Khám phá định nghĩa gia đình theo quan điểm Mác-Ăngghen, vị trí quan trọng như tế bào xã hội và các chức năng cơ bản: tái sản xuất, nuôi dưỡng - giáo dục, kinh tế, và thỏa mãn nhu cầu tâm sinh lý.",
 			slug: "khai-niem-vi-tri-chuc-nang",
+			imageUrl: "https://saltandlight.sg/wp-content/uploads/2019/02/50688990_10156818984563213_768264998081265664_n-2.jpg",
 		},
 		{
 			id: "2",
@@ -41,6 +42,7 @@ export default function Home() {
 			description:
 				"Tìm hiểu về các cơ sở kinh tế-xã hội, chính trị-xã hội, văn hóa và chế độ hôn nhân tiến bộ cùng những giá trị truyền thống và hiện đại làm nền tảng xây dựng gia đình.",
 			slug: "co-so-xay-dung-gia-dinh",
+			imageUrl: "https://images.unsplash.com/photo-1581579186913-45ac3e6efe93?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
 		},
 		{
 			id: "3",
@@ -48,6 +50,7 @@ export default function Home() {
 			description:
 				"Khám phá cách kế thừa truyền thống tốt đẹp như hiếu thảo, đoàn kết và phát huy yếu tố hiện đại như bình đẳng, tiến bộ để xây dựng mô hình gia đình Việt Nam mới.",
 			slug: "xay-dung-gia-dinh-viet-nam",
+			imageUrl: "https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-4.1.0&auto=format&fit=crop&w=1170&q=80",
 		},
 		{
 			id: "4",
@@ -55,6 +58,7 @@ export default function Home() {
 			description:
 				"Phân tích những biến đổi về cấu trúc, chức năng và quan hệ gia đình trong thời đại 4.0, cùng cách gìn giữ giá trị truyền thống và tiếp thu yếu tố hiện đại.",
 			slug: "gia-dinh-viet-nam-thoi-ky-4-0",
+			imageUrl: "https://ngotoc.vn/uploads/news/2020_02/zing_4-1014.png",
 		},
 	];
 
