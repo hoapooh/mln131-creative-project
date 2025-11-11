@@ -13,8 +13,7 @@ export default function AIUsagePage() {
 							Báo Cáo Dự Án Ứng Dụng AI Hỗ Trợ Học Tập
 						</h1>
 						<p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-							Tài liệu minh bạch về việc sử dụng các công cụ trí tuệ nhân tạo trong phát triển tài nguyên giáo dục lịch
-							sử Đảng Cộng sản Việt Nam
+							Tài liệu minh bạch về việc sử dụng các công cụ trí tuệ nhân tạo trong phát triển tài nguyên giáo dục Chủ nghĩa xã hội khoa học
 						</p>
 					</div>
 
@@ -95,7 +94,7 @@ export default function AIUsagePage() {
 										<div>
 											<h4 className="font-semibold">Đối chiếu và hiệu đính</h4>
 											<p className="text-muted-foreground text-sm">
-												Kiểm tra theo nguồn chính thống: Giáo trình học phần Lịch sử Đảng cộng sản Việt Nam
+												Kiểm tra theo nguồn chính thống: Giáo trình Chủ nghĩa xã hội khoa học xuất bản năm 2021
 											</p>
 										</div>
 									</div>
@@ -141,8 +140,7 @@ export default function AIUsagePage() {
 										Phần Kiểm chứng và đối chiếu nguồn hãy xem hình ảnh
 									</p>
 									<p className="text-sm">
-										Tất cả thông tin được đối chiếu trực tiếp với văn bản gốc từ Giáo trình học phần Lịch sử Đảng cộng
-										sản Việt Nam, đảm bảo tính chính xác và đáng tin cậy.
+										Tất cả thông tin được đối chiếu trực tiếp với văn bản gốc từ Giáo trình Chủ nghĩa xã hội khoa học xuất bản năm 2021, đảm bảo tính chính xác và đáng tin cậy.
 									</p>
 								</div>
 							</CardContent>
@@ -186,7 +184,7 @@ export default function AIUsagePage() {
 									<h4 className="font-semibold mb-3">Công việc nhóm thực hiện:</h4>
 									<div className="grid gap-3">
 										{[
-											"Nghiên cứu và khai thác nội dung từ các nguồn chính thống: Giáo trình học phần Lịch sử Đảng cộng sản Việt Nam",
+											"Nghiên cứu và khai thác nội dung từ các nguồn chính thống: Giáo trình Chủ nghĩa xã hội khoa học xuất bản năm 2021",
 											"Chọn lọc ví dụ thực tiễn phù hợp với mục tiêu và sản phẩm của nhóm",
 											"Biên soạn và điều chỉnh bộ câu hỏi quiz sao cho rõ ràng, gần gũi với sinh viên",
 											"Đối chiếu, xác minh độ chính xác của toàn bộ thông tin trước khi sử dụng",
@@ -211,61 +209,84 @@ export default function AIUsagePage() {
 								<CardDescription>Vai trò và nhiệm vụ cụ thể của từng thành viên trong nhóm 6</CardDescription>
 							</CardHeader>
 							<CardContent className="space-y-6">
-								<div className="grid md:grid-cols-2 gap-6">
-									<div className="space-y-4">
-										<div className="p-4 bg-indigo-50 dark:bg-indigo-950/20 rounded-lg border border-indigo-200 dark:border-indigo-800">
-											<h4 className="font-semibold mb-2 text-indigo-700 dark:text-indigo-300">
-												An Phúc Hoà - Trưởng nhóm
-											</h4>
-											<ul className="text-sm space-y-1 text-muted-foreground">
-												<li>• Lãnh đạo và điều phối nhóm</li>
-												<li>• Phân công công việc cho các thành viên</li>
-												<li>• Thiết kế giao diện website</li>
-												<li>• Chuẩn bị và thực hiện thuyết trình</li>
-												<li>• Tham gia phản biện và đánh giá</li>
-											</ul>
-										</div>
-
-										<div className="p-4 bg-blue-50 dark:bg-blue-950/20 rounded-lg border border-blue-200 dark:border-blue-800">
-											<h4 className="font-semibold mb-2 text-blue-700 dark:text-blue-300">
-												Hồ Đăng Khoa - Thiết kế & Nghiên cứu
-											</h4>
-											<ul className="text-sm space-y-1 text-muted-foreground">
-												<li>• Thiết kế và phát triển giao diện</li>
-												<li>• Tìm kiếm và thu thập tài liệu</li>
-												<li>• Nghiên cứu nguồn tài liệu lịch sử</li>
-												<li>• Chuẩn bị và thực hiện thuyết trình</li>
-												<li>• Tham gia phản biện và đánh giá</li>
-											</ul>
-										</div>
+								<div className="grid md:grid-cols-3 gap-4">
+									<div className="p-4 bg-indigo-50 dark:bg-indigo-950/20 rounded-lg border border-indigo-200 dark:border-indigo-800">
+										<h4 className="font-semibold mb-2 text-indigo-700 dark:text-indigo-300">
+											An Phúc Hoà - Trưởng nhóm
+										</h4>
+										<ul className="text-sm space-y-1 text-muted-foreground">
+											<li>• Lãnh đạo và điều phối nhóm</li>
+											<li>• Phân công công việc cho các thành viên</li>
+											<li>• Thiết kế giao diện website</li>
+											<li>• Chuẩn bị và thực hiện thuyết trình</li>
+											<li>• Tham gia phản biện và đánh giá</li>
+										</ul>
 									</div>
 
-									<div className="space-y-4">
-										<div className="p-4 bg-green-50 dark:bg-green-950/20 rounded-lg border border-green-200 dark:border-green-800">
-											<h4 className="font-semibold mb-2 text-green-700 dark:text-green-300">
-												Đỗ Anh Tú - Chuyên gia AI & Chatbot
-											</h4>
-											<ul className="text-sm space-y-1 text-muted-foreground">
-												<li>• Lọc và xử lý dữ liệu từ tài liệu</li>
-												<li>• Tích hợp Chatbot sử dụng BotPress</li>
-												<li>• Huấn luyện AI dựa trên nội dung tổng hợp</li>
-												<li>• Chuẩn bị và thực hiện thuyết trình</li>
-												<li>• Tham gia phản biện và đánh giá</li>
-											</ul>
-										</div>
+									<div className="p-4 bg-green-50 dark:bg-green-950/20 rounded-lg border border-green-200 dark:border-green-800">
+										<h4 className="font-semibold mb-2 text-green-700 dark:text-green-300">
+											Đỗ Anh Tú - AI & Chatbot
+										</h4>
+										<ul className="text-sm space-y-1 text-muted-foreground">
+											<li>• Lọc và xử lý dữ liệu từ tài liệu</li>
+											<li>• Tích hợp Chatbot sử dụng BotPress</li>
+											<li>• Huấn luyện AI dựa trên nội dung tổng hợp</li>
+											<li>• Chuẩn bị và thực hiện thuyết trình</li>
+											<li>• Chuẩn bị trò chơi để kiểm tra kiến thức</li>
+											<li>• Tham gia phản biện và đánh giá</li>
+										</ul>
+									</div>
 
-										<div className="p-4 bg-orange-50 dark:bg-orange-950/20 rounded-lg border border-orange-200 dark:border-orange-800">
-											<h4 className="font-semibold mb-2 text-orange-700 dark:text-orange-300">
-												Đỗ Văn Trí - Nội dung & Câu hỏi
-											</h4>
-											<ul className="text-sm space-y-1 text-muted-foreground">
-												<li>• Tìm kiếm và nghiên cứu tài liệu</li>
-												<li>• Tạo và biên soạn các câu hỏi quiz</li>
-												<li>• Phát triển bộ câu hỏi trắc nghiệm</li>
-												<li>• Chuẩn bị và thực hiện thuyết trình</li>
-												<li>• Tham gia phản biện và đánh giá</li>
-											</ul>
-										</div>
+									<div className="p-4 bg-blue-50 dark:bg-blue-950/20 rounded-lg border border-blue-200 dark:border-blue-800">
+										<h4 className="font-semibold mb-2 text-blue-700 dark:text-blue-300">
+											Hồ Đăng Khoa - Thiết kế & Nghiên cứu
+										</h4>
+										<ul className="text-sm space-y-1 text-muted-foreground">
+											<li>• Thiết kế và phát triển giao diện</li>
+											<li>• Tìm kiếm và thu thập tài liệu</li>
+											<li>• Nghiên cứu nguồn tài liệu lịch sử</li>
+											<li>• Chuẩn bị và thực hiện thuyết trình</li>
+											<li>• Tham gia phản biện và đánh giá</li>
+										</ul>
+									</div>
+
+									<div className="p-4 bg-orange-50 dark:bg-orange-950/20 rounded-lg border border-orange-200 dark:border-orange-800">
+										<h4 className="font-semibold mb-2 text-orange-700 dark:text-orange-300">
+											Võ Nguyên Khoa - Thiết kế & Nghiên cứu
+										</h4>
+										<ul className="text-sm space-y-1 text-muted-foreground">
+											<li>• Thiết kế và phát triển giao diện</li>
+											<li>• Tìm kiếm và thu thập tài liệu</li>
+											<li>• Nghiên cứu nguồn tài liệu lịch sử</li>
+											<li>• Chuẩn bị và thực hiện thuyết trình</li>
+											<li>• Tham gia phản biện và đánh giá</li>
+										</ul>
+									</div>
+
+									<div className="p-4 bg-purple-50 dark:bg-purple-950/20 rounded-lg border border-purple-200 dark:border-purple-800">
+										<h4 className="font-semibold mb-2 text-purple-700 dark:text-purple-300">
+											Nguyễn Quốc Thái - Nội dung & Câu hỏi
+										</h4>
+										<ul className="text-sm space-y-1 text-muted-foreground">
+											<li>• Tìm kiếm và nghiên cứu tài liệu</li>
+											<li>• Tạo và biên soạn các câu hỏi quiz</li>
+											<li>• Phát triển bộ câu hỏi trắc nghiệm</li>
+											<li>• Chuẩn bị và thực hiện thuyết trình</li>
+											<li>• Tham gia phản biện và đánh giá</li>
+										</ul>
+									</div>
+
+									<div className="p-4 bg-teal-50 dark:bg-teal-950/20 rounded-lg border border-teal-200 dark:border-teal-800">
+										<h4 className="font-semibold mb-2 text-teal-700 dark:text-teal-300">
+											Bùi Minh Trí - Nội dung & Câu hỏi
+										</h4>
+										<ul className="text-sm space-y-1 text-muted-foreground">
+											<li>• Tìm kiếm và nghiên cứu tài liệu</li>
+											<li>• Tạo và biên soạn các câu hỏi quiz</li>
+											<li>• Phát triển bộ câu hỏi trắc nghiệm</li>
+											<li>• Chuẩn bị và thực hiện thuyết trình</li>
+											<li>• Tham gia phản biện và đánh giá</li>
+										</ul>
 									</div>
 								</div>
 
@@ -319,7 +340,7 @@ export default function AIUsagePage() {
 										<h4 className="font-semibold mb-2 text-red-700 dark:text-red-300">Trách nhiệm học thuật</h4>
 										<p className="text-sm">
 											Toàn bộ sản phẩm được xây dựng trên cơ sở nghiên cứu nghiêm túc, đối chiếu từ tài liệu chính thống
-											và văn kiện của Đảng, không sao chép từ nguồn khác.
+											và văn kiện của cơ quan nhà nước có thẩm quyền, không sao chép từ nguồn khác.
 										</p>
 									</div>
 
