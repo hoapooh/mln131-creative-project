@@ -37,6 +37,12 @@ const nextConfig: NextConfig = {
 				port: "",
 				pathname: "/**",
 			},
+			{
+				protocol: "https",
+				hostname: "sovhtt.hanoi.gov.vn",
+				port: "",
+				pathname: "/**",
+			},
 		],
 	},
 };

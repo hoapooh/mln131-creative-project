@@ -143,14 +143,14 @@ export default function Home() {
 							className="block dark:hidden"
 							animationStyle="top-in-bottom-out"
 							videoSrc="https://www.youtube.com/embed/fX_VMQKt8Zk?si=8VgFP7fBhvwZyelv"
-							thumbnailSrc="https://images.unsplash.com/photo-1581579186913-45ac3e6efe93?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+							thumbnailSrc="https://sovhtt.hanoi.gov.vn/wp-content/uploads/2015/12/2-1.jpg"
 							thumbnailAlt="Hero Video"
 						/>
 						<HeroVideoDialog
 							className="hidden dark:block"
 							animationStyle="top-in-bottom-out"
 							videoSrc="https://www.youtube.com/embed/fX_VMQKt8Zk?si=8VgFP7fBhvwZyelv"
-							thumbnailSrc="https://images.unsplash.com/photo-1581579186913-45ac3e6efe93?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+							thumbnailSrc="https://sovhtt.hanoi.gov.vn/wp-content/uploads/2015/12/2-1.jpg"
 							thumbnailAlt="Hero Video"
 						/>
 					</div>
