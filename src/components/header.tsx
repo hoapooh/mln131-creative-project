@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Bot, Home, Image, Network } from "lucide-react";
+import { Bot, Home, Image, Network, PuzzleIcon } from "lucide-react";
 
 const navigation = [
 	{
@@ -24,6 +24,11 @@ const navigation = [
 		href: "/ai-usage",
 		label: "AI Usage",
 		icon: Bot,
+	},
+	{
+		href: "/puzzle",
+		label: "Puzzle",
+		icon: PuzzleIcon,
 	},
 ];
 

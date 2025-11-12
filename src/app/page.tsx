@@ -162,13 +162,22 @@ export default function Home() {
 						<p className="text-xl text-emerald-50 mb-8">
 							Khám phá thêm nhiều nội dung và tài nguyên về gia đình Việt Nam thời kỳ 4.0
 						</p>
-						<Link
-							href={"/gallery"}
-							className="inline-flex items-center space-x-2 px-8 py-4 bg-white text-emerald-600 rounded-xl font-semibold hover:bg-emerald-50 transform hover:scale-105 transition-all duration-200 shadow-lg"
-						>
-							<span>Xem thư viện ảnh</span>
-							<ArrowRight size={20} />
-						</Link>
+						<div className="flex flex-col sm:flex-row gap-4 justify-center">
+							<Link
+								href={"/gallery"}
+								className="inline-flex items-center space-x-2 px-8 py-4 bg-white text-emerald-600 rounded-xl font-semibold hover:bg-emerald-50 transform hover:scale-105 transition-all duration-200 shadow-lg"
+							>
+								<span>Xem thư viện ảnh</span>
+								<ArrowRight size={20} />
+							</Link>
+							<Link
+								href={"/puzzle"}
+								className="inline-flex items-center space-x-2 px-8 py-4 bg-purple-600 text-white rounded-xl font-semibold hover:bg-purple-700 transform hover:scale-105 transition-all duration-200 shadow-lg"
+							>
+								<span>🧩 Chơi Puzzle</span>
+								<ArrowRight size={20} />
+							</Link>
+						</div>
 					</div>
 				</section>
 			</div>
